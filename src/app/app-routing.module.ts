@@ -11,7 +11,8 @@ const routes: Routes = [
   {path: 'card', loadChildren: './pages/card/card.module#CardModule'},
   {path: 'checkbox', loadChildren: './pages/checkbox/checkbox.module#CheckBoxModule'},
   {path: 'chip', loadChildren: './pages/chip/chip.module#ChipModule'},
-  {path: '', redirectTo: 'action-sheet', pathMatch: 'full'}
+
+  //{path: '', redirectTo: 'action-sheet', pathMatch: 'full'}
 ]
 
 @NgModule({
